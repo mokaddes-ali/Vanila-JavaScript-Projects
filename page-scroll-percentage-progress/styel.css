@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+h1{
+    color: #008fff;
+    font-size: 28px;
+    text-align: center;
+    padding: 10px 0px;
+}
+p{
+    font-size: 18px;
+    line-height: 2rem;
+    letter-spacing: 0.05rem;
+    text-align: justify;
+    margin: 50px 0;
+    padding: 0 30px;
+}
+#progress{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    background: conic-gradient(#008fff 0%, #c0c0ff 0%);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    display: grid;
+    place-items: center;
+    z-index: 999;
+}
+
+#progress-value{
+    display: block;
+    height: calc(100% - 15px);
+    width: calc(100% - 15px);
+    background-color: white;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    font-weight: 500;
+}
