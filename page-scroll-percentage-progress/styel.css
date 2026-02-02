@@ -31,6 +31,16 @@ p{
     place-items: center;
     z-index: 999;
 }
+#progress-top{
+    height: 6px;
+    width: 0%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #008fff;
+    z-index: 9999;
+    transition: width 0.1s linear;
+}
 
 #progress-value{
     display: block;
